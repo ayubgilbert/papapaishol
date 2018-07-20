@@ -1,0 +1,101 @@
+  body,
+  html {
+   margin:0;
+   padding:0;
+   color:#000000;
+   background-image:url(../Image/backgound.jpg);
+   background-size:cover;
+   font-family:"28 Days Later";
+   }
+  #wrapper {
+    width:750px;
+	height:100%;
+    margin:0 auto;
+    background:#FFFFFF;
+	border-radius:15px;
+  }
+  #header {  
+    padding:5px 10px;
+	color:#FF8000;
+	text-align:center;
+    background-image:url(../Image/banner4.jpg);
+	height:163px;
+	border-radius:15px 15px 0 0;
+	font-size:20px; 
+  }  
+  #nav {  
+    background:#666;
+    padding:5px 10px;
+	font-size:22px;
+	  }
+  #main {  
+    background:#ADADAD;
+    float:right;
+    width:480px;
+    padding:10px;
+	font-size:16px;
+  }
+  #sidebar {  
+    background:#FFFFFF;
+    float:left;
+    width:250px;
+	font-size:18px;
+  }
+  #footer {
+    background:#47586A;
+    clear:both;
+	font-size:20px;
+	text-align:center;
+	padding:10px;
+	border-radius:0 0 15px 15px;
+  }
+  #nav ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+  #nav li {
+    display:inline;
+    margin:0;
+    padding:28px;
+	text-align:center
+  }
+  #nav ul li a{
+	  padding:8px 8px;}
+  h1 { margin:0;}
+  h2 { margin:0 0 1em;}
+  #footer p { margin:0;}
+
+  a:link {color:#000000;text-decoration:none;}    
+  a:visited {color:#CC9933;text-decoration:none;} 
+  a:hover {color:#00CED1; text-decoration:none; 
+           background-color:#FFFFFF;
+  } 
+  a:active {color:#800000;text-decoration:none; 
+           background-color:#FFFFFF; 
+  }
+
+  #main p img {padding:10px;}
+
+  #main table tr td img{opacity: 0.4;}
+  #main table tr td img:hover{opacity:1;}
+	#sidebar table tr td img{
+	border-radius:5px;
+	width:50px; height:50px;
+	margin:5px;
+    }
+
+   textarea {
+	width:400px;
+	height:170px;
+	padding:10px;
+	margin-bottom:5px;
+    }
+   input[type=text] {
+	width:400px;
+	padding:10px;
+	margin-bottom:10px;
+    }
+   input[type=submit]{
+	padding:10px;
+    }
